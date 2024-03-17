@@ -1,0 +1,45 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+}
+
+task showVersions() {
+    doLast {
+        def pythonVersion = 'python3.8 --version'
+        def javaVersion = 'java -version'
+        def kotlinVersion = 'kotlin -version'
+        def gradleVersion = 'gradle -v'
+
+        println "Python version:"
+        exec {
+            commandLine 'bash', '-c', pythonVersion
+        }
+
+        println "\nJava version:"
+        exec {
+            commandLine 'bash', '-c', javaVersion
+        }
+
+        println "\nKotlin version:"
+        exec {
+            commandLine 'bash', '-c', kotlinVersion
+        }
+
+        println "\nGradle version:"
+        exec {
+            commandLine 'bash', '-c', gradleVersion
+        }
+    }
+}
+
+task run(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'HelloWorld'
+}
+
+run.dependsOn showVersions
