@@ -14,6 +14,8 @@ Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie1)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-biznes%20zadanie%201.mov.zip)
 
+Link do obrazu w docker hub: [Link](https://hub.docker.com/r/mmikusx/zad1_ebiznes)
+
 
 **Zadanie 2** Scala
 
