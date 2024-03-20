@@ -4,8 +4,10 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
 
 class Bot : ListenerAdapter() {
+    private val categories = listOf("owoce", "warzywa", "napoje", "samochody")
+
     init {
-        val jda = JDABuilder.createDefault("TU JEST TOKEN ALE GIT BLOKUJE UDOSTEPNIANIE TOKENOW")
+        val jda = JDABuilder.createDefault("TOKEN")
             .setActivity(Activity.listening("messages"))
             .addEventListeners(this)
             .build()
@@ -17,9 +19,15 @@ class Bot : ListenerAdapter() {
         if (event.author.isBot) return
 
         val channel = event.channel
-        channel.sendMessage("Hello, I'm your bot!").queue()
-
         val content = event.message.contentDisplay
+
+        if (content == "@E-biznes zadanie 3 MS bot /kategorie") {
+            val categoriesString = categories.joinToString(", ")
+            channel.sendMessage("Dostępne kategorie: $categoriesString").queue()
+        } else {
+            channel.sendMessage("Cześć! Jestem twoim botem.").queue()
+        }
+
         println("Received message: $content")
     }
 }
