@@ -2,81 +2,30 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"net/http"
+	"gorm.io/driver/sqlite"
+	"gorm.io/gorm"
+	_ "net/http"
 )
 
 type Product struct {
-	ID    string  `json:"id"`
+	gorm.Model
+	ID    string  `gorm:"primaryKey" json:"id"`
 	Name  string  `json:"name"`
 	Price float64 `json:"price"`
 }
 
-var products = []Product{
-	{ID: "p1", Name: "Product 1", Price: 100.23},
-	{ID: "p2", Name: "Product 2", Price: 200.23},
-}
-
-func getProducts(c echo.Context) error {
-	return c.JSON(http.StatusOK, products)
-}
-
-func getProduct(c echo.Context) error {
-	id := c.Param("id")
-
-	for _, product := range products {
-		if product.ID == id {
-			return c.JSON(http.StatusOK, product)
-		}
-	}
-
-	return c.JSON(http.StatusNotFound, nil)
-}
-
-func createProduct(c echo.Context) error {
-	product := Product{}
-
-	if err := c.Bind(&product); err != nil {
-		return err
-	}
-
-	products = append(products, product)
-
-	return c.JSON(http.StatusCreated, product)
-}
-
-func updateProduct(c echo.Context) error {
-	id := c.Param("id")
-
-	product := Product{}
-
-	if err := c.Bind(&product); err != nil {
-		return err
-	}
-
-	for i, p := range products {
-		if p.ID == id {
-			products[i] = product
-			return c.JSON(http.StatusOK, product)
-		}
-	}
-
-	return c.JSON(http.StatusNotFound, nil)
-}
-
-func deleteProduct(c echo.Context) error {
-	id := c.Param("id")
-
-	for i, product := range products {
-		if product.ID == id {
-			products = append(products[:i], products[i+1:]...)
-			return c.NoContent(http.StatusNoContent)
-		}
-	}
-
-	return c.JSON(http.StatusNotFound, nil)
-}
+var db *gorm.DB
 
 func main() {
+	var err error
+	db, err = gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
+	if err != nil {
+		panic("failed to connect database")
+	}
+
+	// Migrate the schema
+	db.AutoMigrate(&Product{})
+
 	e := echo.New()
 
 	e.GET("/products", getProducts)
