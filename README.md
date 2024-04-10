@@ -53,7 +53,7 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-bizne
 
 :white_check_mark: 3.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/a381f04a96a63a054c27152d7b8c96c1ddbe90f1)
 
-:white_check_mark: 3.5 [Link do commita](https://github.com/mmikusx/E-biznes/commit/39d1b6dcfe36625f417232ce5d567154167f14024)
+:white_check_mark: 3.5 [Link do commita](https://github.com/mmikusx/E-biznes/commit/39d1b6dcfe36625f417232ce5d567154167f1402)
 
 :white_check_mark: 4.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/012847825fd96c08cff84b5bf51570be238d106b)
 
