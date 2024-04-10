@@ -64,3 +64,19 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-bizne
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie4)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%204.md)
+
+**Zadanie 5** Frontend
+
+:white_check_mark: 3.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 4.0 [Link do commita dla 3.0, 3.5, 4.0](https://github.com/mmikusx/E-biznes/commit/73fb7d2ebca257630b39052682d37a5b87a186d0)
+
+:white_check_mark: 4.5 [Link do commita](https://github.com/mmikusx/E-biznes/commit/91de91e899bcb20f6960dbe617898eeee6e2e803)
+
+:x: 5.0
+
+Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie5)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%205.md)
