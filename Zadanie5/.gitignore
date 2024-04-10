@@ -1,0 +1,13 @@
+/server/node_modules
+/client/node_modules
+/client/public
+/client/src/App.test.js
+/client/src/index.css
+/client/src/logo.svg
+/client/src/setupTests.js
+/client/src/reportWebVitals.js
+/.idea
+/client/README.md
+/client/package-lock.json
+/server/package-lock.json
+/client/.gitignore
