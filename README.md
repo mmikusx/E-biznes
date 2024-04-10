@@ -33,7 +33,7 @@ Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie2)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-biznes%20zadanie%202.mov)
 
-**Zadanie 2** Kotlin
+**Zadanie 3** Kotlin
 
 :white_check_mark: 3.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/58124f4b933b1f4534503b9ae3c5e0c359be9d06)
 
@@ -48,3 +48,19 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-bizne
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie3)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/E-biznes%20zadanie%203.mov)
+
+**Zadanie 4** Go
+
+:white_check_mark: 3.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/a381f04a96a63a054c27152d7b8c96c1ddbe90f1)
+
+:white_check_mark: 3.5 [Link do commita](https://github.com/mmikusx/E-biznes/commit/39d1b6dcfe36625f417232ce5d567154167f14024)
+
+:white_check_mark: 4.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/012847825fd96c08cff84b5bf51570be238d106b)
+
+:x: 4.5
+
+:x: 5.0
+
+Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie4)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%204.md)
