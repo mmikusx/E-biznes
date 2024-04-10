@@ -14,6 +14,12 @@ type Product struct {
 	Price float64 `json:"price"`
 }
 
+type Cart struct {
+	gorm.Model
+	ID       string    `gorm:"primaryKey" json:"id"`
+	Products []Product `gorm:"many2many:cart_products;" json:"products"`
+}
+
 var db *gorm.DB
 
 func main() {
@@ -23,8 +29,7 @@ func main() {
 		panic("failed to connect database")
 	}
 
-	// Migrate the schema
-	db.AutoMigrate(&Product{})
+	db.AutoMigrate(&Product{}, &Cart{})
 
 	e := echo.New()
 
@@ -33,6 +38,11 @@ func main() {
 	e.POST("/products", createProduct)
 	e.PUT("/products/:id", updateProduct)
 	e.DELETE("/products/:id", deleteProduct)
+
+	e.POST("/carts", createCart)
+	e.GET("/carts/:id", getCart)
+	e.PUT("/carts/:id", updateCart)
+	e.DELETE("/carts/:id", deleteCart)
 
 	e.Start(":8080")
 }
