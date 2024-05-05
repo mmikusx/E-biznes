@@ -80,3 +80,19 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie5)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%205.md)
+
+**Zadanie 6** Testy
+
+:white_check_mark: 3.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/73eb5a08abd5240a232bc84a19fca8bdc7bacd79)
+
+:x: 3.5
+
+:x: 4.0
+
+:x: 4.5
+
+:x: 5.0
+
+Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie6)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%206.md)
