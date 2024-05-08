@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome!</h1>
+<p>You have successfully logged in.</p>
+
+<button id="logout-button">Logout</button>
+
+<script>
+    document.getElementById('logout-button').addEventListener('click', function() {
+        localStorage.removeItem('token');
+        window.location.href = 'https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=http://localhost:3000';
+
+    });
+</script>
+
+</body>
+</html>
