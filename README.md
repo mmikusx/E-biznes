@@ -96,3 +96,19 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie6)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%206.md)
+
+**Zadanie 8** OAuth2
+
+:white_check_mark: 3.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 4.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/8241efd926022c22b01b7f0dc405d3268dd33d5a)
+
+:x: 4.5
+
+:x: 5.0
+
+Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie8)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%208.md)
