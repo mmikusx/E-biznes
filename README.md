@@ -127,7 +127,7 @@ Serwer:
 
 Kod: [Folder](https://github.com/mmikusx/Zadanie7_ebiznes_server_sonar/)
 
-Link do projektu na sonarze: [Sonarcloud](https://sonarcloud.io/project/overview?id=mmikusx_Zadanie7_ebiznes_server_sonar)
+Link do projektu na sonarze: [Sonarcloud](https://sonarcloud.io/component_measures?id=mmikusx_Zadanie7_ebiznes_server_sonar)
 
 **Zadanie 8** OAuth2
 
