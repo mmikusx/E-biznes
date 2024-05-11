@@ -97,6 +97,38 @@ Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie6)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%206.md)
 
+**Zadanie 7** Sonar
+
+:white_check_mark: 3.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 4.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 5.0
+
+Klient: 
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie6_obiektowe_client_sonar&metric=security_rating)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie6_obiektowe_client_sonar&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie6_obiektowe_client_sonar&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie6_obiektowe_client_sonar&metric=code_smells)
+
+Kod: [Folder](https://github.com/mmikusx/Zadanie6_obiektowe_client_sonar/)
+
+Link do projektu na sonarze: [Sonarcloud](https://sonarcloud.io/component_measures?id=mmikusx_Zadanie6_obiektowe_client_sonar)
+
+Serwer:
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie7_ebiznes_server_sonar&metric=security_rating)
+![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie7_ebiznes_server_sonar&metric=bugs)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie7_ebiznes_server_sonar&metric=vulnerabilities)
+![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mmikusx_Zadanie7_ebiznes_server_sonar&metric=code_smells)
+
+Kod: [Folder](https://github.com/mmikusx/Zadanie7_ebiznes_server_sonar/)
+
+Link do projektu na sonarze: [Sonarcloud](https://sonarcloud.io/project/overview?id=mmikusx_Zadanie7_ebiznes_server_sonar)
+
 **Zadanie 8** OAuth2
 
 :white_check_mark: 3.0
