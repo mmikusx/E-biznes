@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+</head>
+<body>
+    <h1>Chat with LLAMA3</h1>
+    <div id="chatbox">
+        <div id="messages"></div>
+        <button onclick="startConversation()">Start Conversation</button>
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="endConversation()">End Conversation</button>
+    </div>
+    <script>
+        async function startConversation() {
+            const response = await fetch('http://127.0.0.1:5000/start', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const data = await response.json();
+            document.getElementById('messages').innerHTML += `<p>LLAMA: ${data.response}</p>`;
+        }
+
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            const response = await fetch('http://127.0.0.1:5000/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: userInput }),
+            });
+            const data = await response.json();
+            document.getElementById('messages').innerHTML += `<p>User: ${userInput}</p><p>LLAMA: ${data.response}</p>`;
+            document.getElementById('userInput').value = '';
+        }
+
+        async function endConversation() {
+            const response = await fetch('http://127.0.0.1:5000/end', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const data = await response.json();
+            document.getElementById('messages').innerHTML += `<p>LLAMA: ${data.response}</p>`;
+        }
+    </script>
+</body>
+</html>
