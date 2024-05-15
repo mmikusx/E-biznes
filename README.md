@@ -144,3 +144,19 @@ Link do projektu na sonarze: [Sonarcloud](https://sonarcloud.io/component_measur
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie8)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%208.md)
+
+**Zadanie 9** ChatGPT bot
+
+:white_check_mark: 3.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 4.0
+
+:white_check_mark: 4.5
+
+:white_check_mark: 5.0 [Link do commita](https://github.com/mmikusx/E-biznes/commit/2dbf5388c7d8c2f30ef464c7051ae0a84058e3e7)
+
+Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie9)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%209.md)
