@@ -173,6 +173,6 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 
 :x: 5.0
 
-Kod: [Repozytorium](https://github.com/mmikusx/Zadanie10)
+Kod: [Repozytorium](https://github.com/mmikusx/Zadanie-10-e-biznes-chmura)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%2010.md)
