@@ -161,7 +161,7 @@ Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie9)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%209.md)
 
-**Zadanie 9** Chmura/CI
+**Zadanie 10** Chmura/CI
 
 :white_check_mark: 3.0
 
@@ -173,6 +173,6 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 
 :x: 5.0
 
-Kod: [Folder](https://github.com/mmikusx/Zadanie10)
+Kod: [Repozytorium](https://github.com/mmikusx/Zadanie10)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%2010.md)
