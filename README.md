@@ -160,3 +160,19 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 Kod: [Folder](https://github.com/mmikusx/E-biznes/tree/main/Zadanie9)
 
 Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%209.md)
+
+**Zadanie 9** Chmura/CI
+
+:white_check_mark: 3.0
+
+:white_check_mark: 3.5
+
+:white_check_mark: 4.0
+
+:white_check_mark: 4.5
+
+:x: 5.0
+
+Kod: [Folder](https://github.com/mmikusx/Zadanie10)
+
+Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie%2010.md)
