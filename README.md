@@ -167,7 +167,7 @@ Demo: [Link do demo](https://github.com/mmikusx/E-biznes/blob/main/demos/Zadanie
 
 :white_check_mark: 3.5
 
-:white_check_mark: 4.0
+:x: 4.0
 
 :white_check_mark: 4.5
 
